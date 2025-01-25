@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <header>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPkA+gMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAwQFAgYB/9oACAEBAAAAAPSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAj5+yfQAAAIeKEPz7Jeml+gAAOK2Tm7MNeO53W17coAAI6GVNmbHNfnQzK33Z1pQABxn4W3V4guxI/ny2a8oABTwKtrR41pOX3Kp9S5HotHoACHEvw5urp9eeypPYfamPBV0t2YACt523Yh3OoPI6WZu7LLpWeJ9QADIgtZ+5YeezvX4Gf7Drny+rx81JQA4xceS36Tr5j2r8GZo2WBHQuehlACLGyF/0nWLh7G9T8ra9YxsNa9NKAEePjLnp+fIcffXedpPR6eFjrnpJQAY2G++uzMIv0C36nzFNqbkoAKvlDZ0cI2sflo2PMm7r/QAQ4Oc++lvfQV/MwJPVTgAKPmfml1Z1evrmjldZrd1ewAEeXma8WZY67fKe5Wo970wAAiy6vfOji6nHzF14etmyAACOnkSdOuNDzk+vozAAAPkVSlE5ms35OwAAAcciUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//8QAGAEBAQEBAQAAAAAAAAAAAAAAAAIBAwT/2gAKAgIQAxAAAAAAAAAAAAAAAAAAAAAAN263SZiQAALrarcw3cznzwABu9LOcZyVXS63ePIAC71E5Dmx3uyZzAA7ddcOTmpKqvr1584kAO3Xd4cHnUlV+nr15cokALrr15co5NY3t3reHHAAHbrMk4VtbOc4AANXZu5l1ziJAAAN3dMnAAAAAAAAAAAAAAAAAAf/xABAEAACAQMABwQFCgUDBQAAAAABAgMABBEFEBIhMUFREyIycRUwQFJTFCAzQmFicpGSwSM0Y4GhQ3CCVHOy0eH/2gAIAQEAAT8A/wBrjNCOMqD+4rt4PirQnhP+qn50CCMgg+1GZc4QFz939zTuyDMs6RDotPe2C/VeY0dLhfBbotel5/hR0NLv9eBDS39k/jgZD1Wo5kl+hug33XrtSn0qFfvDetAggEEEH2V5FQDPE8AOJqeRUTauXCJyjFTaTlbuQgRLTFmJJJJ6mrS1sZkd1R2KcnaorjuGWKyhWJWAZqvpYp5y8WcFRVoYhcxGUgIDk1JLYvMyC0J34UxHBNT6NRIWmErKAucPUGkLmHALba9GqCeCffC3Zyc0NJJk7LDZfp18vY5H2MADLt4Vq5uVs+j3DD9NJDNeM080mzHzlanfR5tHRFZSpyh5tq0O3fnTqA1S3m66tjAOJVRGKubPsIIJcsdviCKtLKS63ghUBwWo3FlYqUgUPJVxLczYebawfDyXUCQQRVrfrNiK5/4yUrMrBJOP1W5N/wDfYXcIuSM8gOpPKrm5+SJya4eo3TtQ8yGQZJYZ4msRaStABhHSryS0Nv2W2TLDhVOzjNXVrDHawSplGPFX8Rq1uzb5EcKNIeZBJoPpiUEqhQeQWnsr+XfJIreb0kGlLcfws46KQRT3R4XVnG3muwavLtJ0hREKKlJo27cjuBQQDkmjZ2NmA1y5duS1fRQG0inEewxwAKsbsOBbT+SNUbNko/iHPqOvsDzIqvct4U3R0VluVuLp2HdIzqspZYrhOzGSxwV6irye0hnMiIHn/NVqOxmnbtrt2y3BPrGooUhGI0WMfZxpgg3sR5sa24ffj/MUDCxwChP2GmjDAg4YdGGRU+jEbfD3G9w+E0lzNbJLbSo2CpAGcFatJDMq2syF4mbCt7hrS8mXiiHBVzqtJzdQ/wBeKkcOqsOBHrpidkIDgudnyHM1pOYNKsCbkiqzZFsk7FdvHjXnmjbWF6MwvsPV3Alq6RhiXCgvVjY9hh5ADN/hKVQurSs4eYRDhHqhlaGVJV4qaR1kRXU5VgCKIBGDVzapOmy//B+a1BcTWErRSLlQe8v7ir2VJrqV0faBoZJwASegoK1hLbS5bDp36XCykcn76+fP1zuEaeU8Ikx+5qC2nvGkKY6sT1NQ2mkLWQOiKeozV1B4b1IwroQzo9WERnme7lGcP3R1elGBquZxbwPJ+nzNEkkknJNWdj29vM54ndHRBBINaJuMo0Dct667+27WIsPHGMj7UrR6QTxzRTDcpElJeQhlhsrYZatKzJsJBxkByxqzlL2Stzgb117IRYDrNJmrW8tbeCOIqzZyZDRieVduzvn/AAFqvWvEVIZp9ssASlQQiGNI+SLj+5469Kz7cwhHCOoomnlSJeLGkRY0VFGFUYFaVg2Ju1HCSoZWhlSReKmkZXVWU5DAEam3AN0q6RrW5lRCR0x0aoLd7OAmOPbuH/Jat7F4Ze3uZUqwQwXl1atUBJiTPEDZPmu71kpxFIeiNWlsKtqnRNUL9lKj4J2WBIBxmoXN3pGN35yZpPDnrk6jnBxR0Pkkm4arSwS1dn2y7EariBbiJo2r0MPjtVrAbaIR7ZcA69KpvgfqhWjpS42ERQqkKAWp5JJW2pHZj1JqwdjfRFmJLZFR8Zh0lb/O/wBZP9BN+A1pf6aH8GvRn86n4XpPCvkNWlp8YgXzfVom4w7QNwbemq/n+T25I8b7k1Wdx8nnVz4eDa9L+CH/ALj67H+dtvx0njn/ABj/AMR6yUZilHVGrS4/ln6prsGCXsB6tik8I+zdUsiwxvI/BRUjtK7OxyzHJ1KzIyspwwIINW8yzwpIvMVf3Hyi4JXwLuXXou47WHs2Pej1aVb+WT7GbXo8ZvYPsJNR+KY/1T/gAetv0zYxHnE+ydYJUhhxByKikWRVdeDqGFaYdwkK/UPzLWWdLe8Efh2B8yxZ1u4djiTg03DHM7qv5RNdSFfCO6uvRKZuHfkiVBkxKT9bLfqOfWyxdoLmH3121+ZoyfjAfxR1dw/KbZ1HHivmK9G3vwx+qvRt78Mfqr0be/DX9VWVr2FtsOO8+S9Noy7DMFQEcjmvRt78Mfqr0be/DH6q0dZSwSPJKoBxhavbgQwlwe82Vj/dvmWMZSyJ+tO2BQAAAHrZe7sye4cn8J41pKDsp9seGTvawxUgg4IOQas7sXC9JB40/cUCCMj5808ccZdzhP8ALfYKuLh7mUu3kB0GuGJp5UiXixpVUyBVGFhGB5n180Amie2PFe9EaZWVirAgg4I1aMid5mbCmMKVbIqa0Cu8llJtdmd6jitW2kkfdMQj+/yNB8gHl1G8UCDwIOrhQbPhBbyq5voYQQWDt7i/ua797OjXLlEbwf8Apa0kEjkSBEVVjTXYQG3hMzL/ABZNyLUabCBc56nqTxPr5E2gCDhl3qavrX5QpniTEi7nSra3W5LJ2wR/qgjjU1zBYqluqEjHeq2s0jmjnS5HZcVq8aJrqYx42C1Wtvf9mJYGK0NJ3CkiRI2IoaWH/TL/AGY16TmLBUt0DVImlZ1JdXCDyUVbPbIxeZGfGNlaliR5re7En8NBk1NZwXUrSJeLl6ubMWq96dS54IBVjaCU9vLuhSkBd+1YY5Ip5D2F0bIdCA4/Jh0NXdks+ZYBiQeOOhcxTARXqtleEnBhV5PaC1S3gOQGqwse3Iml+i5D3qV7r5eu3EyRBWC1fJsXc4++TWi53kEkZx3EXZq5jW7hF3BkSJ4xTky6HViclTq0VO+2YCpZDU7W1rKGtWPaBjluKirayafM9ySI+JzxalUybJK7Ma+BP3PsbxhiGB2XHBhVxbwz4Ey9nJwEg4GpLS5s3EmwHCnIYDIqa/W4tzG8WDyKGtHSTGQD5SAgIyjNWlYmW4EmO66itEBxO5wdgpQabR90WZCEdju6rUxthZzqkiYcF1GdUEVxMSIVboTwFQWMFuQZf4s3JBQRmIaXHVV5L7KQCCCAQa7Nk+ibA91t4qa2tpN8sBRvfSjotH3w3KtT6NvgAu5gPvUtppJFKKGC9A9ejb5zvUf3el0S43yzogqKzsk4I85oLKw4iNeicaSNEGFXHtLRxv4kU+YoQoPCXXyYiuyPxZf1muxB4vIfNzSwQrvEa5/3P//EACURAQACAQMDBAMBAAAAAAAAAAEAAhEhMUESIDAQIjJRUGHRkf/aAAgBAgEBPwD8qVWdIbwD6iH1OnOz461zrM5Y+6sNOSOr9kHBrpFLcRMPgqZZ1RxvFX1LcMx7pYz4K5DJN2Ll7a6iTTOZbfvr8SOy/rup8iAHEvv30+Me6m/pffvo8el689tTB6Ll8BYTMzzGpvtOi06XmaV/sqmhL248IpBH+RHVY60n1EEjbg/3yFk5nWzrYq/l/wD/xAAjEQEAAgEDBAMBAQAAAAAAAAABAAIREiExEDBBURMgIlAy/9oACAEDAQE/AP6oLNIcwD1Gp6mnPD261zuzOY7kNvJOZnB6ijEw9gMs1RxzFWN8PErbVC3uY/UsZ7FchknLFyyzglK5h+bdK7mJtnMefvXgjwvS1jOEzKom0u1zuZlUSV/0TAS/J96cdFwPSlsMXLKuGV56X5+9Hk6XrPjrCgT46woDKmDouVewImZnzGpzxNLNL5m1YJLvg7IpBGI7rHes9R4jbwdwU8zW+ia7Td5f6/8A/9k="
+            alt="logo" height="100px" width="100px">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </header>
+
+   
+
+
+    <div class="hero-section" id="home">
+        <h1>Meezan bank</h1>
+        <p>The preimier islamic bank of pakistan</p>
+        <button class="btn" id="btn">get started</button>
+        <button class="btn" id="btn">Donate</button>
+    </div>
+
+
+    <div>
+        <h1 style="color: rgb(114, 36, 129)  ;font-size: 50px; text-decoration: underline;" id="service">Services</h1>
+
+    </div>
+    <div class="card-container">
+
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>Home Financing</h1>
+                <P>Meezan Bank offers Islamic home financing through its Easy Home product. This financing is Riba-free
+                    (interest-free) and works on the principle of Diminishing Musharakah</P>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>Car financing</h1>
+                <p>Meezan Bank offers Islamic car financing through its Easy Auto product. This financing is Riba-free
+                    (interest-free) and works on the principle of Diminishing Musharakah</p>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>property financing</h1>
+                <p>
+                    Meezan Bank offers Islamic property financing through its Easy Home and Meezan Roshan Apna Ghar
+                    products</p>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>life financing</h1>
+                <p>
+                    Meezan Bank offers Islamic property financing through its Easy Home and Meezan Roshan Apna Ghar
+                    products</p>
+
+            </div>
+
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>Home Financing</h1>
+                <P>Meezan Bank offers Islamic home financing through its Easy Home product. This financing is
+                    Riba-free
+                    (interest-free) and works on the principle of Diminishing Musharakah</P>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>Car financing</h1>
+                <p>Meezan Bank offers Islamic car financing through its Easy Auto product. This financing is
+                    Riba-free
+                    (interest-free) and works on the principle of Diminishing Musharakah</p>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>property financing</h1>
+                <p>
+                    Meezan Bank offers Islamic property financing through its Easy Home and Meezan Roshan Apna Ghar
+                    products</p>
+            </div>
+        </div>
+        <div class="card-1">
+
+            <div class="ab">
+                <h1>life financing</h1>
+                <p>
+                    Meezan Bank offers Islamic property financing through its Easy Home and Meezan Roshan Apna Ghar
+                    products</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <section class="hero-4" id="contact">
+        <div class="contact-heading">
+            <h2>Contacts</h2>
+        </div>
+        <form class="input-container">
+            <h3>your name</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <h3>your email</h3>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <h3>Any query?</h3>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button class="message-btn" type="submit">Send Message</button>
+        </form>
+
+    </section>
+
+    <div class="touch">
+        <h1>Get in touch!</h1>
+        <p><b>Email;</b>saly04904@gmail.com</p>
+        <p><b>Telephone;</b>03428234067</p>
+        <p><b>Address;</b>H#2554,Landhi Karachi</p>
+    </div>
+    <div class="icons">
+        <a href="https://github.com/SAADII619"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" fill="black"
+                width="30" height="30" viewBox="0 0 30 30">
+                <path
+                    d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                </path>
+            </svg></a>
+        <a href="https://www.linkedin.com/in/saad-ali-137a54334/"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
+                y="0px" fill="black" width="30" height="30" viewBox="0 0 50 50">
+                <path
+                    d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                </path>
+            </svg></a>
+        <a href="https://www.instagram.com/saad_aly000/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                fill="black" width="30" height="30" viewBox="0 0 24 24">
+                <path
+                    d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z">
+                </path>
+            </svg></a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Saad ali. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
